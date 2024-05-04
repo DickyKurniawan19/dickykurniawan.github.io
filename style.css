@@ -20,20 +20,6 @@ section {
   transform-style: preserve-3d;
 }
 
-.keyboard-box::before {
-  content: "MY";
-  position: absolute;
-  color: #fff;
-  font-size: 6em;
-  font-weight: bold;
-  font-style: italic;
-  top: 30px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
 .keyboard-box:hover::before {
   opacity: 0.2;
 }
@@ -95,7 +81,7 @@ section {
   transform: translate3d(-50%, -52%, 80px);
   max-width: 350px;
   transition: 0.5s;
-  z-index: 2;
+  z-index: 3;
 }
 
 .keyboard-box:hover .keyboard-img {
